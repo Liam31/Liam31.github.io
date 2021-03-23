@@ -1,0 +1,141 @@
+body{
+    background: black;
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    background-image: url('../img/lines.svg');
+    background-size: 700px 700px;
+    background-position: 0 -90px;
+    background-repeat: no-repeat;
+}
+body::selection {
+    background: #fff !important; /* WebKit/Blink Browsers */
+}
+body::-moz-selection {
+    background: #fff !important; /* Gecko Browsers */
+}
+.no-underline {
+    text-decoration: none;
+}
+.no-underline:hover {
+    color: #000;
+}
+#wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+#defaultCanvas0 {
+    position: absolute;
+    top: 4rem;
+    left: 15rem;
+}
+#streaks {
+    background: #000;
+    max-width: 450px;
+    margin: 0 auto;
+}
+#content {
+    margin-top: 0px;
+    margin-bottom: 5rem;
+}
+
+.bordered {
+    border: 2px solid #fff;
+    padding: 2rem;
+}
+#skills {
+    width: 82%;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    background: #000;
+}
+a {
+    color: #fff;
+}
+.info {
+    color: white;
+    font: 1em sans-serif;
+    text-align: center;
+}
+
+.info a{
+    color: white;
+}
+
+.divider {
+    border: none;
+    border-top: 2px dashed #fff;
+    width: 100%;
+    margin: 3rem auto;
+}
+.divider-short {
+    border: none;
+    border-top: 1px dashed #fff;
+    width: 100%;
+    float: left;
+    margin: 0.5rem auto;
+}
+.project button {
+    width: calc(100% - 1rem);
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+}
+.project button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+.project button:hover > a {
+    color: #000;
+}
+
+header {
+    padding-top: 8.7rem;
+    margin-top: 0rem;
+}
+
+svg {
+    width: 97%;
+    height: 120px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    background: black;
+}
+#projects {
+    width: 100%;
+    display: inline-block;
+}
+.project {
+    border: 2px solid #fff;
+    width: calc(37% - 5rem);
+    padding: 0.5rem;
+    margin: 1rem;
+    float: left;
+    text-align: left;
+    height: 180px;
+    position: relative;
+}
+.project h4 {
+    margin: 0;
+}
+.project p {
+    font-size: 10pt;
+}
+.project .dimmed {
+    border: 2px solid #eee;
+    color: #eee;
+}
+
+#subtext_svg {
+    height: 30px !important;
+    text-align: center;
+}
